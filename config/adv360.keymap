@@ -25,7 +25,7 @@
             label = "Homerow Mod Left";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <175>;
@@ -39,7 +39,7 @@
             label = "Homerow Mod Right";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <175>;
@@ -66,22 +66,22 @@
         mac_layer {
             display-name = "Mac";
             bindings = <
-&kp ESCAPE  &kp N1     &kp N2             &kp N3           &kp N4           &kp N5  &tog 3                                                                              &mo 5      &kp N6  &kp N7                &kp N8            &kp N9              &kp N0         &kp BSLH
-&kp TAB     &kp Q      &kp W              &kp E            &kp R            &kp T   &kp LS(LG(NUMBER_5))                                                                &none      &kp Y   &kp U                 &kp I             &kp O               &kp SEMICOLON  &kp FSLH
-&kp EQUAL   &kp A      &hml LEFT_SHIFT S  &hml LEFT_GUI D  &hml LEFT_ALT F  &kp G   &hm RG(V) RG(C)       &kp LEFT_GUI  &kp LALT      &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none      &kp H   &hmr RIGHT_CONTROL J  &hmr RIGHT_GUI K  &hmr RIGHT_SHIFT L  &kp P          &kp SQT
-&kp LSHFT   &kp Z      &kp X              &kp C            &kp V            &kp B                                       &kp HOME      &kp PG_UP                                    &kp N   &kp M                 &kp COMMA         &kp DOT             &kp MINUS      &kp RSHFT
-&mo 4       &kp GRAVE  &kp CAPS           &kp LEFT         &kp RIGHT                &kp BSPC              &kp DEL       &kp END       &kp PG_DN          &kp ENTER      &kp SPACE          &kp UP                &kp DOWN          &kp LBKT            &kp RBKT       &mo 4
+&kp ESCAPE  &kp N1     &kp N2             &kp N3          &kp N4          &kp N5  &tog 3                                                                              &mo 5      &kp N6  &kp N7               &kp N8           &kp N9              &kp N0         &kp BSLH
+&kp TAB     &kp Q      &kp W              &kp E           &kp R           &kp T   &kp LS(LG(NUMBER_5))                                                                &none      &kp Y   &kp U                &kp I            &kp O               &kp SEMICOLON  &kp FSLH
+&kp EQUAL   &kp A      &hml LEFT_SHIFT S  &hm LEFT_GUI D  &hm LEFT_ALT F  &kp G   &hm RG(V) RG(C)       &kp LEFT_GUI  &kp LALT      &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none      &kp H   &hm RIGHT_CONTROL J  &hm RIGHT_GUI K  &hmr RIGHT_SHIFT L  &kp P          &kp SQT
+&kp LSHFT   &kp Z      &kp X              &kp C           &kp V           &kp B                                       &kp HOME      &kp PG_UP                                    &kp N   &kp M                &kp COMMA        &kp DOT             &kp MINUS      &kp RSHFT
+&mo 4       &kp GRAVE  &kp CAPS           &kp LEFT        &kp RIGHT               &kp BSPC              &kp DEL       &kp END       &kp PG_DN          &kp ENTER      &kp SPACE          &kp UP               &kp DOWN         &kp LBKT            &kp RBKT       &mo 4
             >;
         };
 
         windows_layer {
             display-name = "Windows";
             bindings = <
-&kp ESCAPE  &kp N1     &kp N2             &kp N3               &kp N4           &kp N5  &tog 3                                                          &mo 5      &kp N6  &kp N7            &kp N8                &kp N9              &kp N0         &kp BSLH
-&kp TAB     &kp Q      &kp W              &kp E                &kp R            &kp T   &kp RS(RG(S))                                                   &none      &kp Y   &kp U             &kp I                 &kp O               &kp SEMICOLON  &kp FSLH
-&kp EQUAL   &kp A      &hml LEFT_SHIFT S  &hml LEFT_CONTROL D  &hml LEFT_ALT F  &kp G   &hm RC(V) RC(C)  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hmr RIGHT_GUI J  &hmr RIGHT_CONTROL K  &hmr RIGHT_SHIFT L  &kp P          &kp SQT
-&kp LSHFT   &kp Z      &kp X              &kp C                &kp V            &kp B                               &kp HOME      &kp PG_UP                        &kp N   &kp M             &kp COMMA             &kp DOT             &kp MINUS      &kp RSHFT
-&mo 4       &kp GRAVE  &kp CAPS           &kp LEFT             &kp RIGHT                &kp BSPC         &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP            &kp DOWN              &kp LBKT            &kp RBKT       &mo 4
+&kp ESCAPE  &kp N1     &kp N2             &kp N3              &kp N4          &kp N5  &tog 3                                                          &mo 5      &kp N6  &kp N7           &kp N8               &kp N9              &kp N0         &kp BSLH
+&kp TAB     &kp Q      &kp W              &kp E               &kp R           &kp T   &kp RS(RG(S))                                                   &none      &kp Y   &kp U            &kp I                &kp O               &kp SEMICOLON  &kp FSLH
+&kp EQUAL   &kp A      &hml LEFT_SHIFT S  &hm LEFT_CONTROL D  &hm LEFT_ALT F  &kp G   &hm RC(V) RC(C)  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RIGHT_GUI J  &hm RIGHT_CONTROL K  &hmr RIGHT_SHIFT L  &kp P          &kp SQT
+&kp LSHFT   &kp Z      &kp X              &kp C               &kp V           &kp B                               &kp HOME      &kp PG_UP                        &kp N   &kp M            &kp COMMA            &kp DOT             &kp MINUS      &kp RSHFT
+&mo 4       &kp GRAVE  &kp CAPS           &kp LEFT            &kp RIGHT               &kp BSPC         &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP           &kp DOWN             &kp LBKT            &kp RBKT       &mo 4
             >;
         };
 
